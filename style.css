@@ -1,4 +1,166 @@
-body{
-color:blueviolet;
-background-color: blanchedalmond;
-}
+*, body{font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    box-sizing:border-box;
+    
+    }
+    
+    
+    h2 {font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 200;
+        color: #858585;}
+    h3{font-family: 'Playfair Display', serif;
+      color: #002d45;
+      font-size: 18px;
+      font-weight: 600;}
+    h1 {font-weight: 900;}
+    h5{font-family: 'Didact Gothic', sans-serif;
+      font-weight: 300;
+        font-size: 20px;
+        color: white;
+      }
+    
+    p{font-weight: 400;}
+    
+    body, html {
+      height: 100vh;
+    }
+    
+    .bg_grey{
+      background-color: grey;
+    }
+    .parallax {
+      background: url('../img/parallax.jpg');
+      /* Full height */
+      height: 100vh;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .upper_menu {
+      background-color: #f7f7f7b5;
+      border-radius: 5px;}
+    
+    
+    .photo-gallery{
+      margin: 0 auto;
+    }
+    
+    .gallery-row{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    .gallery-box{
+      float: left;
+      overflow: hidden;
+      text-align: center;
+      height: 100px;
+    
+    }
+    
+    .img{
+        height: 100px;
+        object-fit: contain;
+        padding: 5px;
+    }
+    
+    *{box-sizing:border-box;}
+    
+    .hidden{overflow:hidden;}
+    
+    .polotno{width: 800px;
+            position: relative;
+            margin: 30px auto;
+          }
+    .one {width: 70px; height: 70px; position: absolute; background-color: #f0ccff;
+          animation: 5s line infinite;
+          border-radius: 50%}
+    .two {width: 70px; height: 70px; position: absolute; background-color: #ccfff9;
+          animation: 10s line infinite;
+          border-radius: 50%;}
+    .three {width: 70px; height: 70px; position: absolute; background-color: #d5ffcc;
+            animation: 13s line infinite;
+            border-radius: 50%;
+            }
+    
+    div p:nth-child(1){animation-delay: 1s;}
+    div p:nth-child(2){animation-delay: 3s;}
+    div p:nth-child(3){animation-delay: 6s;}
+    div p{filter: blur(40px);}
+    
+    @keyframes line{
+    0%{transform: translate(0px, 0px) scale(1);}
+    0%{transform: translate(0px, 0px) scale(1.5);}
+    30%{transform: translate(250px, 150px) scale(1.5);}
+    30%{transform: translate(500px, 150px) scale(1);}
+    60%{transform: translate(200px, 100px) scale(1);}
+    60%{transform: translate(200px, 100px) scale(1.5);}
+    100%{transform: translate(0px, 0px) scale(1);}
+    100%{transform: translate(0px, 0px) scale(1.5);}
+    
+    }
+    
+    
+    
+    figure {
+        width: 33%; /* Ширина */
+        float: left; /* Выстраиваем элементы по горизонтали */
+       /* Отступ слева */
+        background: #f0f0f0; /* Цвет фона */
+        border-radius: 5px; /* Радиус скругления */
+        padding: 2%; /* Поля */
+       }
+    
+    figure:first-child {
+    margin-left: 0; /* Убираем отступ для первого элемента */
+    }
+    
+    .social-icons {
+        padding-bottom: 17px;
+        text-align: center;
+        position: relative;}
+    
+    .social-icons--header {
+      padding: 0;}
+    
+      .social-icons-wrapper {
+          display: flex;
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          -webkit-flex-flow: row wrap;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -moz-box-orient: horizontal;
+          -moz-box-direction: normal;
+          -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+          -webkit-justify-content: center;
+          -webkit-box-pack: center;
+          -moz-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+      }
+    
+    .social-icon-box {
+        margin-left: 15px;
+        margin-bottom: 5px;}
+    
+    .md-menu__main--color, .md-menu__main--color a, .adaptive-desktop .md-menu__main a, .md-menu__separator, .social-icon-box--header i, .shop-cart-widget-amount, .mod--vertical-menu .close-mobile-menu .close-menu-burger, .mod--vertical-menu .md-menu--mobile .md-menu__main a {
+        color: red;
+    }
+    
+    
+    .social-icons .social-icon-box i {
+        vertical-align: middle;
+    }
+    .vk_icon{}
+    .insta_icon{}
+    
